@@ -35,7 +35,7 @@ class _XoGameState extends State<XoGame> {
         ModalRoute.of(context)!.settings.arguments as PlayersModel;
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.green.shade400,
+        backgroundColor: Colors.green.shade200,
         title: Text(
           "Xo Game",
           style: TextStyle(
