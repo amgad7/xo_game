@@ -21,7 +21,7 @@ class BoardBtn extends StatelessWidget {
       },
       child: Text(
         label,
-        style: TextStyle(
+        style: const TextStyle(
           color: Colors.white,
           fontSize: 45,
           fontWeight: FontWeight.w100,
